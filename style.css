@@ -1,9 +1,7 @@
 body {
     font-family: helvetica, Arial, Helvetica, sans-serif;
     margin: 0px;
-    padding: 0;
     font-size: 1.5vw;
-    background-color: white;
 }
 
 
@@ -11,8 +9,6 @@ h1 {
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
-    background-color: white;
-    text-align: center;
     width: 16%;
 
 }
@@ -22,89 +18,12 @@ ul {
 }
 
 body > header {
-    background-color: white;
+    background-color: orange;
     color: white; 
     display: flex;
     height: 12vh;
     align-items: center;
     justify-content: space-around;
-}
-.cart {
-    padding: 30px;
-    max-width: 900px;
-    margin: auto;
-    background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.cart-item {
-    display: flex;
-    margin-bottom: 25px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 15px;
-}
-.cart-item img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.item-details {
-    flex: 1;
-    padding-left: 25px;
-}
-
-.item-details h3 {
-    margin: 0;
-    font-size: 20px;
-    color: #333;
-}
-
-.item-details p {
-    color: #666;
-    font-size: 18px;
-}
-
-.item-details input {
-    width: 50px;
-    padding: 5px;
-    margin-top: 10px;
-}
-.item-details .remove-item {
-    background-color: #e60000;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.cart-summary {
-    text-align: right;
-    margin-top: 30px;
-}
-.cart-summary h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.cart-summary p {
-    margin: 8px 0;
-    font-size: 18px;
-}
-
-.checkout {
-    background-color: #111;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    border-radius: 5px;
 }
 
 #nav-ul{
@@ -153,7 +72,7 @@ h2 {
 }
 
 body > footer {
-    background-color: white;
+    background-color: orange;
     display: flex;
 } 
 
@@ -174,4 +93,3 @@ img {
     color: white;
     text-decoration: none;
 }
-

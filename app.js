@@ -1,16 +1,15 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded" , () => {
 
-const images = document.querySelectorAll("img");
+    const images = document.querySelectorAll("img"); 
 
 for(const image of images){
     fetch("https://dog.ceo/api/breeds/image/random")
-    .then(response => response.json())
+    .then(Response => Response.json())
     .then(data => {
+        image.src = data.message
+        image.width =  100;
+        image.height = 100;
 
-     image.src = data.message
-     image.width = 100;
-     image.height = 100;
     })
 }
-
-} )
+})
